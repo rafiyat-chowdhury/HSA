@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    hyphens: auto;
+
+}
+
+main {
+    line-height: 1.6;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+}
+
+
+/* Web fonts
+font-family: 'Bebas Neue', cursive;
+font-family: 'Mukta', sans-serif;
+*/
+
+h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 2px 2px 4px #E74646;
+   }
+   
+.moto {
+       text-align: center;
+       margin: 2rem 0.5rem 0 0.5rem;
+   }
+   
+
+   
+.sc {
+       font-weight: bolder;
+   }
+
+.start {
+    font-size: 6rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-bottom: 0;
+    margin: 0 0;
+    letter-spacing: 0.5rem;
+    text-shadow: 2px 2px 4px #E74646;
+   }
+
+.start::after {
+    content: "\2193";
+    font-size: 7rem;
+    display: block;
+    margin-top: 0;
+    
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/* Top navigation bar design */
+nav li  {
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    margin: 0.5rem 2rem;
+    border-radius: 25%;
+    text-decoration: underline;
+    background-color: #FA9884;
+}
+
+nav li:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #E74646;
+    cursor: pointer;
+}
+
+
+/*   Header design */
+
+.top-container {
+    background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/great-wall-of-china.jpg?crop=315%2C0%2C3361%2C1849&wid=4000&hei=2200&scl=0.8404545454545455");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    background-position: bottom;
+    background-color: orangered;
+    padding-bottom: 4rem;
+    color: white;
+}
+
+
+
+/* Middle container section designs */
+
+
+
+.middle-container {
+    margin: 0 1.5rem;
+
+
+}
+
+.btn {
+    margin: 0 auto ;
+    display: block;
+    padding: 1rem 2.5rem;
+    border-radius: 25%;
+    background-color: #FA9884;
+    color: white;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color:#E74646;
+    font-weight: bolder;
+    
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn a:hover {
+    font-weight: bold;
+
+}
+
+
+
+/* Below aside section article for FLEX CONTAINER */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+.item-1 {
+    flex-basis: 20%;
+}
+
+
+.item-2 {
+    flex-basis: 20%;
+}
+
+.item-3 {
+    flex-basis: 20%;
+}
+
+/* Bottom footer contact and location section design */
+
+footer li {
+    display: inline-block;
+    padding-right: 2rem; 
+}
+
+
+.bottom-container {
+    background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/great-wall-of-china.jpg?crop=315%2C0%2C3361%2C1849&wid=4000&hei=2200&scl=0.8404545454545455");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    background-position: bottom;
+    background-color: orangered;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.image-name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 2px 2px 4px #4649FF;
+}
+
+
+
+
+
+
+
+
+/*   @media queries */
+
+@media (min-width: 769px) {
+    .wrap {
+        min-height: calc(100vh - 127.66px);
+    }
+}
